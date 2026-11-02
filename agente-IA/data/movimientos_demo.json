@@ -1,0 +1,44 @@
+[
+  {
+    "cliente_id": 1,
+    "fecha": "2026-10-03",
+    "tipo": "ingreso",
+    "descripcion": "Factura de venta ficticia A",
+    "monto": "1190000"
+  },
+  {
+    "cliente_id": 1,
+    "fecha": "2026-10-10",
+    "tipo": "ingreso",
+    "descripcion": "Factura de venta ficticia B",
+    "monto": "595000"
+  },
+  {
+    "cliente_id": 1,
+    "fecha": "2026-10-12",
+    "tipo": "gasto",
+    "descripcion": "Compra ficticia A",
+    "monto": "238000"
+  },
+  {
+    "cliente_id": 1,
+    "fecha": "2026-10-18",
+    "tipo": "gasto",
+    "descripcion": "Compra ficticia B",
+    "monto": "119000"
+  },
+  {
+    "cliente_id": 2,
+    "fecha": "2026-10-05",
+    "tipo": "ingreso",
+    "descripcion": "Factura de venta ficticia C",
+    "monto": "850000"
+  },
+  {
+    "cliente_id": 2,
+    "fecha": "2026-10-15",
+    "tipo": "gasto",
+    "descripcion": "Compra ficticia C",
+    "monto": "170000"
+  }
+]

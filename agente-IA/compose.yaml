@@ -1,0 +1,22 @@
+services:
+  agente:
+    build: .
+    env_file:
+      - .env
+    environment:
+      DB_HOST: db
+      DB_PORT: "5432"
+      DATA_SOURCE: postgres
+      PYTHONPATH: /app/src
+    volumes:
+      - ./data:/app/data
+    networks:
+      - contasimple
+    stdin_open: true
+    tty: true
+    command: ["python", "-m", "agente_ia"]
+
+networks:
+  contasimple:
+    external: true
+    name: mi-plataforma_default
